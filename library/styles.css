@@ -125,6 +125,10 @@ h1 .heading-inverted{
     border-top-right-radius: 1rem;
 }   
 
+.footer-header {
+    font-weight: bold;
+}
+
 .footer .link {
     color: white;
 }
