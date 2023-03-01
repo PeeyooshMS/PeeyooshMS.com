@@ -11,6 +11,11 @@ body {
     margin: 0;
 }
 
+section p{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
 hr {
     margin: 2rem 0;
 }
@@ -22,7 +27,7 @@ hr {
 
 /* container */
 .container{
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
 
 .container-center{
@@ -42,9 +47,15 @@ hr {
 }
 
 .secondary-link{
+    text-align: center;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.link-blog{
+    text-align: center;
+    padding-right: 2rem;
 }
 
 /* List */
@@ -80,7 +91,9 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    border-bottom: 3px solid currentColor;
 }
+
 
 /* Header */
 .hero{
@@ -109,6 +122,8 @@ hr {
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
 }
 
 h1 .heading-inverted{
@@ -139,6 +154,8 @@ h1 .heading-inverted{
 
 .footer-header {
     font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white ;
 }
 
 .footer .link {
