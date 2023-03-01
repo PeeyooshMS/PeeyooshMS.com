@@ -53,9 +53,16 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+.social-link{
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+}
+
 .link-blog{
     text-align: center;
     padding-right: 2rem;
+    padding-top: 1rem;
 }
 
 /* List */
@@ -153,13 +160,17 @@ h1 .heading-inverted{
 }   
 
 .footer-header {
+    font-size: large;
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: white ;
+    padding-bottom: 1rem;
 }
 
 .footer .link {
     color: white;
+    font-size: small;
+    font-weight: bold;
 }
 
 .footer ul {
