@@ -133,6 +133,13 @@ hr {
     text-decoration-color: var(--primary-color);
 }
 
+.heading-inverted{
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+}
+
+
 h1 .heading-inverted{
     color: var(--primary-color);
 }
