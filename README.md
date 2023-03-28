@@ -7,7 +7,7 @@ https://peeyooshms.netlify.app/
 ## Langauges and Features used
 1. HTML 
 2. CSS
-3. unDraw 
+3. Boxicons
 
 ## Future Plans
 As I am progressing on my journey of Web development, I will add my projects and blogs on my portfolio. 
