@@ -19,7 +19,7 @@ body {
 .left-side{
     flex-basis: 50%;
     display: inline-block;
-    margin-left: 4rem;
+    margin-left: 8rem;
     margin-top: 4rem;
 }
 
@@ -33,11 +33,11 @@ body {
 .header-heading span{
     display: block;
     padding-bottom: 0.5rem;
+    font-size: 48px;
 }
 
 .left-side p {
     width: 420px
-    
 }
 
 .navigation{
@@ -66,18 +66,20 @@ body {
 }
 
 .line {
-    letter-spacing: -2.5px;
+    letter-spacing: -3.5px;
 }
 
 .link:hover{
     letter-spacing: 0.4rem;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .social-container{
     display: flex;
-    align-items :end ;
-
+    align-items : end ;
+    margin-top: 8rem;
+    margin-left: -0.5rem;
 }
 
 .social-container .img{
@@ -100,9 +102,8 @@ body {
     padding: 0 0.5rem;
     
 }
-.bx{
-    color: white;
-    
+.social-link-list .bx-fw{
+    color: white; 
 }
 
 .social-link{
@@ -114,16 +115,42 @@ body {
 .social-link:hover{
     font-weight: bold;
     letter-spacing: 0.03rem;
+    font-size: 14px
 }
 
-.github:hover{
-    color: red;
+
+/* LEFT SIDE OF PAGE */
+
+.projects-div{
+    display: block;
 }
 
-.linkedin:hover{
-    color: blue;
+.project{
+    height: auto;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    color: black;
 }
 
-.replit:hover{
-    color: red;
+.project-content{
+    padding: 1.5rem;
+}
+
+.project-language {
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.project-name{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.bx {
+    color: black;
+    font-size: 18px;
 }
