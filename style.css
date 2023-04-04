@@ -9,12 +9,28 @@ body {
     color: var(--secondary-colour);
     background-color: var(--primary-color);
     font-family: 'Courier Prime', monospace;
+    padding: 0;
+    margin: 0;
 }
 
 .main-body{
     display: flex;
     justify-content: space-around;
 }
+
+/* SITE UNDER CONSTRUCTION */
+.construction {
+    padding-top: 3px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.construction i{
+    color: white;
+}
+
 
 .left-side{
     flex-basis: 50%;
@@ -130,7 +146,7 @@ body {
     width: 80%;
     background-color: white;
     margin-bottom: 1rem;
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
     color: black;
 }
 
@@ -153,4 +169,53 @@ body {
 .bx {
     color: black;
     font-size: 18px;
+}
+
+/* MuSIC Container */
+.music-div {
+    margin-top: 4rem;
+}
+
+.player-div{
+    background-color: var(--secondary-colour);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    width: 60%;
+    display: flex;
+}
+
+.player-div img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.music-content-div{
+    display: flex;
+    margin: 0 auto ;
+    align-items: center;
+}
+
+.music-content-div button {
+    background-color: var(--secondary-colour);
+    border: none;
+}
+
+.player-music-info{
+    margin: 0 2rem;
+}
+
+.player-music-info h4{
+    margin-bottom: 0;
+}
+
+
+
+
+.music-list-div .music img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
 }
